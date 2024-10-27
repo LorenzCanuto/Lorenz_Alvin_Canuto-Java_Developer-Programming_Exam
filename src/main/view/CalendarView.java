@@ -4,10 +4,6 @@ import main.model.Project;
 import main.model.Task;
 
 public class CalendarView {
-    public void startCalendarView() {
-        // Placeholder for starting the main.view
-    }
-
     public void showSchedule(Project project) {
         System.out.println("Project: " + project.getProjectName());
         for (Task task : project.getTasks()) {
